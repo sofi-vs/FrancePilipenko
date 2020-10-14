@@ -1,0 +1,121 @@
+<document!>
+<HTML>
+<HEAD>
+  <TITLE>Где нас найти</TITLE>
+  <style>
+  #menu {
+    padding: 0;
+    margin: 0;
+    font-family:  Verdana;
+    }
+#menu li {
+    list-style: none;
+    float: left;
+    height: 50px;
+    padding: 0;
+    margin: 0;
+    width: 325px;
+    text-align: center;
+    background:  #ffd0cc;
+    position: relative;
+    padding-top: 12px;
+    }
+#menu li ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 300px;
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 42px;
+    }
+#menu li a{
+    display: block;
+    width: 150px;
+    height: 30px;
+    color:    #fa8919;
+    text-decoration: none;
+    }
+
+#menu li:hover ul{
+      display: block;
+      }
+#menu li:hover{
+      background: #ffeae8;
+      }
+#menu li ul li ul{
+left:150px;
+top: 0;
+}
+#menu>li>ul>li>ul{
+    left:150px;
+    top: 0;
+    }
+#menu li ul li ul li{display: none;}
+#menu li ul li:hover ul li{display: block;}
+#picture {
+
+float:left;
+width: 200px;
+
+}
+  </style>
+</HEAD>
+<BODY>
+ <!-- Меню :-) -->
+    <div>
+        <ul id="menu">
+		<li> 
+		<a href="sayt.html"> Главная страничка </a>
+		</li>
+            <li>
+                <a href="javascript:void(0);">Достопримечательности</a>
+				<ul>
+                    <li>
+                        <a href="1s.html">Эльфевая Башня</a>
+                    </li>
+                    <li>
+                        <a href="2s.html">Лувр</a>
+                    </li>
+                    <li>
+                        <a href="3s.html">Версальский дворец</a>
+					<li>
+                        <a href="4s.html">Лазурный берег</a>
+					</li>
+					</li>
+            </ul>
+            <li>
+                <a href="5s.html">Где нас найти</a>
+            </li>
+            <li>
+                <a href="6s.html">Красивые Картинки</a>
+             </li>
+    </div>
+
+<p>
+  <div id="picture">
+<img src="123.jpg" width="175" height="150" >
+</div>
+<p>Адрес: Champ de Mars, 5 Avenue Anatole France, 75007 Paris, Франция
+</p>
+
+<div id="picture">
+<img src="132.jpg" width="175" height="150" >
+</div>
+<p>Адрес: просто где-то есть, Франция
+</p>
+
+<div id="picture">
+<img src="143.jpg" width="175" height="150" >
+</div>
+<p>Адрес: Rue de Rivoli, 75001 Paris, Франция
+</p>
+
+<div id="picture">
+<img src="167.jpg" width="175" height="150" >
+</div>
+<p>Адрес: Адрес: Place d'Armes, 78000 Versailles, Франция
+</p> 
+</BODY>
+</HTML>
